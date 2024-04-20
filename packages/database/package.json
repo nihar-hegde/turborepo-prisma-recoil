@@ -1,0 +1,14 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "dependencies": {
+    "@prisma/client": "^5.11.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "prisma": "5.11.0"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}
